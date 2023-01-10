@@ -7,8 +7,8 @@ class TestEnglishToFrench(unittest.TestCase):
         self.assertEqual(englishtofrench("hello"),"Bonjour")
 
 class TestFrenchToEnglish(unittest.TestCase):
-    def test1(self):
+    def test2(self):
         self.assertNotEqual(frenchtoenglish("Bonjour"),"hola")
-        self.assertEqual(frenchtoenglish("Bonjour"),"hello")
+        self.assertEqual(frenchtoenglish("Bonjour"),"Hello")
         
 unittest.main()
